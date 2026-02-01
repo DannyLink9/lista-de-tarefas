@@ -13,7 +13,7 @@ export const deleteCompletedTasks = async () => {
     if (!allTasks) return;
 
     return allTasks;
-  } catch {
+  } catch (error) {
     throw error;
   }
 };
